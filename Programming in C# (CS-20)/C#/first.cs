@@ -11,8 +11,8 @@ class bca
         int num2;
 
         Console.WriteLine("S1 = {0} S2 = {1} S3 = {2}", s1, s2, s3);
-        num1 = Console.ReadLine();
-        num2 = Console.ReadLine();
+        num1 = Int32.Parse(Console.ReadLine());
+        num2 = Int32.Parse(Console.ReadLine());
         int sum = num1 + num2;
         Console.WriteLine("Sum = {0}", sum);
     }

@@ -33,12 +33,12 @@ class stud
         }
         Console.WriteLine("_______________________________________________________________");
 
-        for (int i = 0; i < 5; i++)
-        {
-            int total;
-            total += marks[i];
-        }
-        Console.WriteLine("Total = {0}", total);
+        // for (int i = 0; i < 5; i++)
+        // {
+        //     int total;
+        //     total += marks[i];
+        // }
+        // Console.WriteLine("Total = {0}", total);
         Console.WriteLine("_______________________________________________________________");
 
 

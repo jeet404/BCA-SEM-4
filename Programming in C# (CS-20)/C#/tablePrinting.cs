@@ -6,7 +6,7 @@ public class Test
     {
         int n, i, t = 0;
         Console.Write("Enter a number:");
-        n = Convert.ToInt32(Console.ReadLine());
+        n = Int32.Parse(Console.ReadLine());
 
         Console.WriteLine("Table is:");
         for (i = 1; i <= 10; i++)

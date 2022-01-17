@@ -13,6 +13,5 @@ class NumberPattern
             }
             Console.WriteLine();
         }
-        Console.ReadKey();
     }
 }

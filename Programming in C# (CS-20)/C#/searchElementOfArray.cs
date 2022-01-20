@@ -10,14 +10,14 @@ class find
         int[] data = new int[10];
         Console.WriteLine("Enter Data Inside The Array");
         Console.WriteLine("________________________________");
-        foreach (int i in data)
+        for (int i = 0; i < data.Length; i++)
         {
-            Console.Write("Data[i] = ", i);
+            Console.Write("Data[" + i + "] = ");
             data[i] = Int32.Parse(Console.ReadLine());
         }
         Console.Write("Which Value Do You Search :  ");
         get = Int32.Parse(Console.ReadLine());
-        foreach (int i in data)
+        for (int i = 0; i < data.Length; i++)
         {
             if (data[i] == get)
             {

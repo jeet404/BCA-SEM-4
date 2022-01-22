@@ -3,10 +3,9 @@ using mymath;
 
 class calc
 {
-    public static void Main(String[] args)
+    public static void Main()
     {
-        Scanner get = new Scanner(System.in);
-        int firstNum,secondNum,sum,multip;
+        int firstNum, secondNum, sum, multip;
         String sign;
         int res;
 
@@ -17,15 +16,15 @@ class calc
         Console.Write("Sign = ");
         sign = Console.ReadLine();
 
-        if(sign == "+")
+        if (sign == "+")
         {
-            res = ForAdd.add(x,y)
-            System.out.println("Sum = {0}",res);
+            res = ForAdd.add(x, y);
+            Console.WriteLine("Sum = {0}", res);
         }
-        else if(sign == "*")
+        else if (sign == "*")
         {
-            res = ForAdd.multi(x,y)
-            System.out.println("Product = {0}",res);
+            res = ForAdd.multi(x, y);
+            Console.WriteLine("Product = {0}", res);
         }
     }
 }

@@ -16,7 +16,9 @@ class stud
     public static void Main()
     {
         stud s = new stud();
-
+        get_data();
+        cal_data();
+        display();
     }
 
     public static void get_data()
@@ -37,7 +39,7 @@ class stud
     public static void cal_data()
     {
         stud s = new stud();
-        for (int i = 0; i < s.marks[i].Length; i++)
+        for (int i = 0; i < s.marks.Length; i++)
         {
             s.obtainMarks = s.obtainMarks + s.marks[i];
         }
@@ -53,10 +55,10 @@ class stud
         Console.WriteLine("*  Roll No : {0}                                     *", s.rno);
         Console.WriteLine("*  Name : {0}                                        *", s.name);
         Console.WriteLine("******************************************************");
-        for (int i = 0; i < sub.Length; i++)
+        for (int i = 0; i < s.sub.Length; i++)
         {
             Console.Write("{0, -5}", i + 1);
-            Console.Write("{0, -19} {1}", sub[i], marks[i]);
+            Console.Write("{0, -19} {1}", s.sub[i], s.marks[i]);
             Console.WriteLine();
         }
         Console.WriteLine("******************************************************");
@@ -65,27 +67,22 @@ class stud
         if (s.per >= 85)
         {
             Console.WriteLine("*  Remarks : Excellent                           *");
-            breck;
         }
         else if (s.per < 75)
         {
             Console.WriteLine("*  Remarks : Very Good                           *");
-            breck;
         }
         else if (s.per < 65)
         {
             Console.WriteLine("*  Remarks : Good                                *");
-            breck;
         }
         else if (s.per < 45)
         {
             Console.WriteLine("*  Remarks : Need Improvement                    *");
-            breck;
         }
         else if (s.per > 33)
         {
             Console.WriteLine("*  Remarks : Fail, Better Luck Next Tim          *");
-            breck;
         }
         Console.WriteLine("******************************************************");
     }

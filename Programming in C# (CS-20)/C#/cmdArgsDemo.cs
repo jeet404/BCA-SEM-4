@@ -1,3 +1,10 @@
+/*
+    Step - 1 : First of all Compile the program using... csc <programName>.cs
+    Step - 2 : If your code successfully Compiled the Execute / Run the program using... <programName>/<programName>.exe ... (Don't Press Enter)
+    Step - 3 : When you Wrote above step's command then put space on same line and write like this... <Num1> <Sign> <Num2> ... Than Press Enter and you can see the result.
+*/
+
+
 using System;
 
 class calc

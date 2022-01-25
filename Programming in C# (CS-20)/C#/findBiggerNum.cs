@@ -18,11 +18,6 @@ class find
             {
                 Console.WriteLine("All The Numbers Are Same.");
             }
-            else
-            {
-                Console.WriteLine("All The Numbers Are Same.");
-            }
-
         }
         else if (thirdNum > firstNum)
         {

@@ -40,21 +40,21 @@ class stud
         {
             obtainMarks = obtainMarks + marks[i];
         }
-        per = obtainMarks / totalMarks * 100;
+        per = (obtainMarks / totalMarks) * 100;
     }
 
     public static void display()
     {
         Console.WriteLine("******************************************************");
-        Console.WriteLine("*                    Final Marksheet                 *");
+        Console.WriteLine("*                   Final Marksheet                  *");
         Console.WriteLine("******************************************************");
-        Console.WriteLine("*  Roll No : {0,-5}                                     *", rno);
-        Console.WriteLine("*  Name : {0,-19}                                        *", name);
+        Console.WriteLine("*  Roll No : {0,-5}                                  *", rno);
+        Console.WriteLine("*  Name : {0,-5}                                     *", name);
         Console.WriteLine("******************************************************");
         for (int i = 0; i < sub.Length; i++)
         {
-            Console.Write("{0}", i + 1);
-            Console.Write("{0} {1}", sub[i], marks[i]);
+            Console.Write("{0,-2}", i + 1);
+            Console.Write("{0,-19} {1}", sub[i], marks[i]);
             Console.WriteLine();
         }
         Console.WriteLine("******************************************************");
@@ -78,7 +78,7 @@ class stud
         }
         else if (per > 33)
         {
-            Console.WriteLine("*  Remarks : Fail, Better Luck Next Tim          *");
+            Console.WriteLine("*  Remarks : Fail, Better Luck Next Time         *");
         }
         Console.WriteLine("******************************************************");
     }

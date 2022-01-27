@@ -2,16 +2,16 @@ using System;
 
 class stud
 {
-    public string name;
-    public int rno;
-    public string[] sub = new string[6] {
+    string name;
+    int rno;
+    string[] sub = new string[6] {
             "Chemistry", "Physics", "Mathes",
             "GK", "English", "Computer"
         };
-    public int[] marks = new int[6];
-    public int totalMarks = 600;
-    public int obtainMarks = 0;
-    public float per;
+    int[] marks = new int[6];
+    int totalMarks = 600;
+    int obtainMarks = 0;
+    float per;
 
     public static void Main()
     {
@@ -23,27 +23,27 @@ class stud
 
     public static void get_data()
     {
-        stud s = new stud();
+        stud put = new stud();
         Console.Write("Enter Roll No : ");
-        s.rno = Int32.Parse(Console.ReadLine());
+        put.rno = Int32.Parse(Console.ReadLine());
         Console.Write("Enter Name : ");
-        s.name = Console.ReadLine();
-        for (int i = 0; i < s.marks.Length; i++)
+        put.name = Console.ReadLine();
+        for (int i = 0; i < put.marks.Length; i++)
         {
-            Console.Write("Enter Marks of {0} = ", s.sub[i]);
-            s.marks[i] = Int32.Parse(Console.ReadLine());
+            Console.Write("Enter Marks of {0} = ", put.sub[i]);
+            put.marks[i] = Int32.Parse(Console.ReadLine());
         }
         Console.WriteLine();
     }
 
     public static void cal_data()
     {
-        stud s = new stud();
-        for (int i = 0; i < s.marks.Length; i++)
+        stud cal = new stud();
+        for (int i = 0; i < cal.marks.Length; i++)
         {
-            s.obtainMarks = s.obtainMarks + s.marks[i];
+            cal.obtainMarks = cal.obtainMarks + cal.marks[i];
         }
-        s.per = s.obtainMarks / s.totalMarks * 100;
+        cal.per = cal.obtainMarks / cal.totalMarks * 100;
     }
 
     public static void display()

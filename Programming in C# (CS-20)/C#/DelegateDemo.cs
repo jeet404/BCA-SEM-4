@@ -1,15 +1,16 @@
 using System;
 
+public delegate int myClass(int x, int y);
+
 public class DelDemo
 {
-    public delegate void Dal1(int a, int y);
-    public void Add(int a, int b)
+    public static int Add(int x, int y)
     {
-        Console.WriteLine("Sum = {0}", a + b);
+        return (x + y);
     }
-    public void product(int a, int b)
+    public static int product(int x, int y)
     {
-        Console.WriteLine("Product = {0}", a * b);
+        return (x * y);
     }
 }
 
@@ -17,6 +18,11 @@ class main
 {
     public static void Main()
     {
-        Dal1 d = new Dal1(DelDemo.add);
+        myClass d1 = new myClass(DelDemo.Add);
+        int resA = d1(5, 5);
+        Console.WriteLine("Result of Add = {0}", resA);
+        myClass d2 = new myClass(DelDemo.product);
+        int resP = d2(5, 5);
+        Console.WriteLine("Result of Product = {0}", resP);
     }
 }

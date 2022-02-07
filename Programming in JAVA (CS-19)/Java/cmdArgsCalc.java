@@ -13,7 +13,7 @@ public class cmdArgsCalc {
             case "-":
                 System.out.println(num1 + " " + args[1] + " " + num2 + " = " + (num1 - num2));
                 break;
-            case "*":
+            case "x":
                 System.out.println(num1 + " " + args[1] + " " + num2 + " = " + (num1 * num2));
                 break;
             case "/":

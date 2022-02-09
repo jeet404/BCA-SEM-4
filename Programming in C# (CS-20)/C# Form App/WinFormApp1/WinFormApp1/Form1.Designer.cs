@@ -40,7 +40,7 @@
             // 
             // btn_copy
             // 
-            this.btn_copy.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btn_copy.BackColor = System.Drawing.Color.Cyan;
             this.btn_copy.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_copy.Location = new System.Drawing.Point(238, 386);
             this.btn_copy.Name = "btn_copy";
@@ -108,7 +108,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.button2.BackColor = System.Drawing.Color.Cyan;
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(62, 386);
             this.button2.Name = "button2";
@@ -120,7 +120,7 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.button5.BackColor = System.Drawing.Color.Cyan;
             this.button5.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(12, 386);
             this.button5.Name = "button5";
@@ -132,7 +132,7 @@
             // 
             // Form1
             // 
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.Yellow;
             this.ClientSize = new System.Drawing.Size(348, 435);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button2);
@@ -142,6 +142,7 @@
             this.Controls.Add(this.txt_fourth);
             this.Controls.Add(this.txt_first);
             this.Controls.Add(this.btn_copy);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);

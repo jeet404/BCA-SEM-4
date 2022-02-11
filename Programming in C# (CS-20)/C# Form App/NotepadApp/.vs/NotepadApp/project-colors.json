@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "68e7c15a-a64c-4df2-8c89-5c5ec7d15967": {
+      "ProjectGuid": "68e7c15a-a64c-4df2-8c89-5c5ec7d15967",
+      "DisplayName": "NotepadApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

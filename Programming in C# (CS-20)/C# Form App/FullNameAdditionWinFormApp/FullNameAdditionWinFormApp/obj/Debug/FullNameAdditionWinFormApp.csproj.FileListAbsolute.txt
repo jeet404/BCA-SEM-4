@@ -1,0 +1,11 @@
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\FullNameAdditionWinFormApp\FullNameAdditionWinFormApp\bin\Debug\FullNameAdditionWinFormApp.exe.config
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\FullNameAdditionWinFormApp\FullNameAdditionWinFormApp\bin\Debug\FullNameAdditionWinFormApp.exe
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\FullNameAdditionWinFormApp\FullNameAdditionWinFormApp\bin\Debug\FullNameAdditionWinFormApp.pdb
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\FullNameAdditionWinFormApp\FullNameAdditionWinFormApp\obj\Debug\FullNameAdditionWinFormApp.csproj.AssemblyReference.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\FullNameAdditionWinFormApp\FullNameAdditionWinFormApp\obj\Debug\FullNameAdditionWinFormApp.csproj.SuggestedBindingRedirects.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\FullNameAdditionWinFormApp\FullNameAdditionWinFormApp\obj\Debug\FullNameAdditionWinFormApp.Form1.resources
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\FullNameAdditionWinFormApp\FullNameAdditionWinFormApp\obj\Debug\FullNameAdditionWinFormApp.Properties.Resources.resources
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\FullNameAdditionWinFormApp\FullNameAdditionWinFormApp\obj\Debug\FullNameAdditionWinFormApp.csproj.GenerateResource.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\FullNameAdditionWinFormApp\FullNameAdditionWinFormApp\obj\Debug\FullNameAdditionWinFormApp.csproj.CoreCompileInputs.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\FullNameAdditionWinFormApp\FullNameAdditionWinFormApp\obj\Debug\FullNameAdditionWinFormApp.exe
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\FullNameAdditionWinFormApp\FullNameAdditionWinFormApp\obj\Debug\FullNameAdditionWinFormApp.pdb

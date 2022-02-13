@@ -20,62 +20,79 @@ namespace CalcWinFormsApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            val1 = int.Parse(txt_val1.Text);
-            val2 = int.Parse(txt_val2.Text);
+            val1 = Int32.Parse(txt_val1.Text);
+            val2 = Int32.Parse(txt_val2.Text);
             res = val1 + val2;
             txt_answer.Text = res.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            val1 = int.Parse(txt_val1.Text);
-            val2 = int.Parse(txt_val2.Text);
+            val1 = Int32.Parse(txt_val1.Text);
+            val2 = Int32.Parse(txt_val2.Text);
             res = val1 - val2;
             txt_answer.Text = res.ToString();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            val1 = int.Parse(txt_val1.Text);
-            val2 = int.Parse(txt_val2.Text);
+            val1 = Int32.Parse(txt_val1.Text);
+            val2 = Int32.Parse(txt_val2.Text);
             res = val1 * val2;
             txt_answer.Text = res.ToString();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            val1 = int.Parse(txt_val1.Text);
-            val2 = int.Parse(txt_val2.Text);
+            val1 = Int32.Parse(txt_val1.Text);
+            val2 = Int32.Parse(txt_val2.Text);
             res = val1 / val2;
             txt_answer.Text = res.ToString();
         }
 
+        public static bool chk(int n)
+        {
+            return (n % 2 == 0);
+        }
+
         private void button5_Click(object sender, EventArgs e)
         {
-            val1 = int.Parse(txt_val1.Text);
-            val2 = int.Parse(txt_val2.Text);
-
-            if (val1 % 2 == 0 || )
+            val1 = Int32.Parse(txt_val1.Text);
+            if (chk(val1) == true)
             {
-                if (val1 % 2 == 0)
-                {
-                    txt_val1.Text = val2 + " Even";
-                }
-                else
-                {
-                    txt_val1.Text = val1 + " Odd";
-                }
+                txt_val1.Text = val1 + " Even";
             }
             else
             {
-                if (val1 % 1 == 0)
-                {
-                    txt_val1.Text = val1 + " Odd";
-                }
-                else
-                {
-                    txt_val2.Text = val2 + " Odd";
-                }
+                txt_val1.Text = val2 + " Odd";
+            }
+            val2 = Int32.Parse(txt_val2.Text);
+            if (chk(val2) == true)
+            {
+                txt_val2.Text = val2 + " Evan";
+            }
+            else
+            {
+                txt_val2.Text = val2 + " Odd";
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            val1 = Int32.Parse(txt_val1.Text);
+            val2 = Int32.Parse(txt_val2.Text);
+
+            if (val1 < val2)
+            {
+                txt_answer.Text = Convert.ToString(val1) + " = Min /" + Convert.ToString(val2) + " = Max";
+            }
+            else if (val1 > val2)
+            {
+                txt_answer.Text = Convert.ToString(val1) + " = Max /" + Convert.ToString(val2) + " = Min";
+            }
+            else
+            {
+                txt_answer.Text = "Same";
             }
         }
 

@@ -116,7 +116,6 @@
             this.txt_answer.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_answer.Location = new System.Drawing.Point(129, 107);
             this.txt_answer.Name = "txt_answer";
-            this.txt_answer.ReadOnly = true;
             this.txt_answer.Size = new System.Drawing.Size(155, 24);
             this.txt_answer.TabIndex = 6;
             this.txt_answer.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;

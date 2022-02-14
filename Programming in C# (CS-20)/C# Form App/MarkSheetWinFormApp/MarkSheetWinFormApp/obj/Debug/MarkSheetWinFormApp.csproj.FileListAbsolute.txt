@@ -1,0 +1,11 @@
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\MarkSheetWinFormApp\MarkSheetWinFormApp\bin\Debug\MarkSheetWinFormApp.exe.config
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\MarkSheetWinFormApp\MarkSheetWinFormApp\bin\Debug\MarkSheetWinFormApp.exe
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\MarkSheetWinFormApp\MarkSheetWinFormApp\bin\Debug\MarkSheetWinFormApp.pdb
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\MarkSheetWinFormApp\MarkSheetWinFormApp\obj\Debug\MarkSheetWinFormApp.csproj.AssemblyReference.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\MarkSheetWinFormApp\MarkSheetWinFormApp\obj\Debug\MarkSheetWinFormApp.csproj.SuggestedBindingRedirects.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\MarkSheetWinFormApp\MarkSheetWinFormApp\obj\Debug\MarkSheetWinFormApp.Form1.resources
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\MarkSheetWinFormApp\MarkSheetWinFormApp\obj\Debug\MarkSheetWinFormApp.Properties.Resources.resources
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\MarkSheetWinFormApp\MarkSheetWinFormApp\obj\Debug\MarkSheetWinFormApp.csproj.GenerateResource.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\MarkSheetWinFormApp\MarkSheetWinFormApp\obj\Debug\MarkSheetWinFormApp.csproj.CoreCompileInputs.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\MarkSheetWinFormApp\MarkSheetWinFormApp\obj\Debug\MarkSheetWinFormApp.exe
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\MarkSheetWinFormApp\MarkSheetWinFormApp\obj\Debug\MarkSheetWinFormApp.pdb

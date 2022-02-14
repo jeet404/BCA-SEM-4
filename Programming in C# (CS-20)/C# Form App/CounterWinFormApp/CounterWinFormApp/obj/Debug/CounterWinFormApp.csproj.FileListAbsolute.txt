@@ -1,0 +1,10 @@
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CounterWinFormApp\CounterWinFormApp\bin\Debug\CounterWinFormApp.exe.config
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CounterWinFormApp\CounterWinFormApp\bin\Debug\CounterWinFormApp.exe
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CounterWinFormApp\CounterWinFormApp\bin\Debug\CounterWinFormApp.pdb
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CounterWinFormApp\CounterWinFormApp\obj\Debug\CounterWinFormApp.csproj.SuggestedBindingRedirects.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CounterWinFormApp\CounterWinFormApp\obj\Debug\CounterWinFormApp.Form1.resources
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CounterWinFormApp\CounterWinFormApp\obj\Debug\CounterWinFormApp.Properties.Resources.resources
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CounterWinFormApp\CounterWinFormApp\obj\Debug\CounterWinFormApp.csproj.GenerateResource.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CounterWinFormApp\CounterWinFormApp\obj\Debug\CounterWinFormApp.csproj.CoreCompileInputs.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CounterWinFormApp\CounterWinFormApp\obj\Debug\CounterWinFormApp.exe
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CounterWinFormApp\CounterWinFormApp\obj\Debug\CounterWinFormApp.pdb

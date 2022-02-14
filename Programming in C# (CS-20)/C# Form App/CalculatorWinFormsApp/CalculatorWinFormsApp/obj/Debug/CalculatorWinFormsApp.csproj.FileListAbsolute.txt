@@ -1,0 +1,11 @@
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CalculatorWinFormsApp\CalculatorWinFormsApp\bin\Debug\CalculatorWinFormsApp.exe.config
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CalculatorWinFormsApp\CalculatorWinFormsApp\bin\Debug\CalculatorWinFormsApp.exe
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CalculatorWinFormsApp\CalculatorWinFormsApp\bin\Debug\CalculatorWinFormsApp.pdb
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CalculatorWinFormsApp\CalculatorWinFormsApp\obj\Debug\CalculatorWinFormsApp.csproj.AssemblyReference.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CalculatorWinFormsApp\CalculatorWinFormsApp\obj\Debug\CalculatorWinFormsApp.csproj.SuggestedBindingRedirects.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CalculatorWinFormsApp\CalculatorWinFormsApp\obj\Debug\CalculatorWinFormsApp.Form1.resources
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CalculatorWinFormsApp\CalculatorWinFormsApp\obj\Debug\CalculatorWinFormsApp.Properties.Resources.resources
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CalculatorWinFormsApp\CalculatorWinFormsApp\obj\Debug\CalculatorWinFormsApp.csproj.GenerateResource.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CalculatorWinFormsApp\CalculatorWinFormsApp\obj\Debug\CalculatorWinFormsApp.csproj.CoreCompileInputs.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CalculatorWinFormsApp\CalculatorWinFormsApp\obj\Debug\CalculatorWinFormsApp.exe
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\CalculatorWinFormsApp\CalculatorWinFormsApp\obj\Debug\CalculatorWinFormsApp.pdb

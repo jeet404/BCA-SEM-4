@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "88099f81-da86-4d91-b6f2-bbf0305e046a": {
+      "ProjectGuid": "88099f81-da86-4d91-b6f2-bbf0305e046a",
+      "DisplayName": "CalculatorWinFormsApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -17,38 +17,11 @@ namespace MarkSheetWinFormApp
         float per = 0;
         string grade = "";
         string newline = Environment.NewLine;
+        string comSpace = "     ";     
 
         private void Form1_Shown(object sender, EventArgs e)
         {
             txt_rno.Focus();
-        }
-
-        private void button1_TextChanged(object sender, EventArgs e)
-        {
-            if(txt_rno.Text == "")
-            {
-                txt_rno.Focus();
-            }
-            else if(txt_studname.Text == "")
-            {
-                txt_studname.Focus();
-            }
-            else if(txt_cs.Text == "")
-            {
-                txt_cs.Focus();
-            }
-            else if(txt_java.Text == "")
-            {
-                txt_java.Focus();
-            }
-            else if(txt_os.Text == "")
-            {
-                txt_os.Focus();
-            }
-            else if(txt_net.Text == "")
-            {
-                txt_net.Focus();
-            }
         }
 
         public Form1()
@@ -86,7 +59,7 @@ namespace MarkSheetWinFormApp
                 grade = "Fail";
             }
 
-            txt_result.Text = "Roll No : " +txt_rno.Text+newline+"Student Name : "+txt_studname.Text+newline+"-------------------------------"+newline+"C#     "+cs+newline+"JAVA    "+java+newline+"OS    "+os+newline+"Network   "+net+newline+"-------------------------------"+newline+"Obtained Marks : "+total+newline+"Percentage : "+per+newline+"Grade : "+grade+newline+"-------------------------------";
+            txt_result.Text = "Roll No : "+comSpace+txt_rno.Text+newline+"Student Name : "+comSpace+txt_studname.Text+newline+"-------------------------------"+newline+"C#"+comSpace+cs+newline+"JAVA"+comSpace+java+newline+"OS"+comSpace+os+newline+"Network"+comSpace+net+newline+"-------------------------------"+newline+"Obtained Marks :"+comSpace+total+newline+"Percentage :"+comSpace+per+newline+"Grade :"+comSpace+grade+newline+"-------------------------------";
         }
     }
 }

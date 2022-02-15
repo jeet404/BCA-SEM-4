@@ -18,6 +18,11 @@ namespace MarkSheetWinFormApp
         string grade = "";
         string newline = Environment.NewLine;
 
+        private void Form1_Shown(object sender, EventArgs e)
+        {
+            txt_rno.Focus();
+        }
+
         private void button1_TextChanged(object sender, EventArgs e)
         {
             if(txt_rno.Text == "")

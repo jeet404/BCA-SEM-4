@@ -28,20 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.lbl_selected = new System.Windows.Forms.Button();
             this.rbtn_red = new System.Windows.Forms.RadioButton();
             this.rbtn_yellow = new System.Windows.Forms.RadioButton();
             this.rbtn_blue = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
-            // button1
+            // lbl_selected
             // 
-            this.button1.Location = new System.Drawing.Point(12, 231);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(252, 34);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.lbl_selected.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_selected.Location = new System.Drawing.Point(12, 231);
+            this.lbl_selected.Name = "lbl_selected";
+            this.lbl_selected.Size = new System.Drawing.Size(252, 34);
+            this.lbl_selected.TabIndex = 0;
+            this.lbl_selected.Text = "U have select";
+            this.lbl_selected.UseVisualStyleBackColor = true;
             // 
             // rbtn_red
             // 
@@ -92,7 +93,7 @@
             this.Controls.Add(this.rbtn_blue);
             this.Controls.Add(this.rbtn_yellow);
             this.Controls.Add(this.rbtn_red);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lbl_selected);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -102,7 +103,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button lbl_selected;
         private System.Windows.Forms.RadioButton rbtn_red;
         private System.Windows.Forms.RadioButton rbtn_yellow;
         private System.Windows.Forms.RadioButton rbtn_blue;

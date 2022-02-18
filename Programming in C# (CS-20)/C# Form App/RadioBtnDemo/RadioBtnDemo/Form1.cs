@@ -20,14 +20,20 @@ namespace RadioBtnDemo
 
         private void rbtn_red_CheckedChanged(object sender, EventArgs e)
         {
-            rbtn_red.BackColor = Color.Red;
-            rbtn_red.Text = lbl_data + rbtn_red.Text;
+            lbl_selected.BackColor = Color.Red;
+            lbl_selected.Text = lbl_data +" "+ rbtn_red.Text;
         }
 
         private void rbtn_yellow_CheckedChanged(object sender, EventArgs e)
         {
-            rbtn_yellow.BackColor = Color.Yellow;
-            rbtn_yellow.Text = lbl_data + rbtn_yellow.Text;
+            lbl_selected.BackColor = Color.Yellow;
+            lbl_selected.Text = lbl_data +" "+ rbtn_yellow.Text;
+        }
+
+        private void rbtn_blue_CheckedChanged(object sender, EventArgs e)
+        {
+            lbl_selected.BackColor = Color.Blue;
+            lbl_selected.Text = lbl_data +" "+ rbtn_blue.Text;
         }
     }
 }

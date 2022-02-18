@@ -1,4 +1,4 @@
-﻿namespace RadioBtnDemo
+﻿namespace RadioButtonSecondDemo
 {
     partial class Form1
     {
@@ -57,7 +57,6 @@
             this.rbtn_red.Text = "RED";
             this.rbtn_red.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.rbtn_red.UseVisualStyleBackColor = true;
-            this.rbtn_red.CheckedChanged += new System.EventHandler(this.rbtn_red_CheckedChanged);
             // 
             // rbtn_yellow
             // 
@@ -71,7 +70,6 @@
             this.rbtn_yellow.Text = "YELLOW";
             this.rbtn_yellow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.rbtn_yellow.UseVisualStyleBackColor = true;
-            this.rbtn_yellow.CheckedChanged += new System.EventHandler(this.rbtn_yellow_CheckedChanged);
             // 
             // rbtn_blue
             // 
@@ -95,6 +93,7 @@
             this.btn_get.TabIndex = 4;
             this.btn_get.Text = "GET";
             this.btn_get.UseVisualStyleBackColor = true;
+            this.btn_get.Click += new System.EventHandler(this.btn_get_Click);
             // 
             // Form1
             // 

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0c61b1a8-6f6e-4582-99ae-7ffc773831d0": {
+      "ProjectGuid": "0c61b1a8-6f6e-4582-99ae-7ffc773831d0",
+      "DisplayName": "RadioBtnDemo",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

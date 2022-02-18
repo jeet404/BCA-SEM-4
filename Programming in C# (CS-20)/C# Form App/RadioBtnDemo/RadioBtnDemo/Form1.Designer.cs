@@ -47,7 +47,7 @@
             // 
             this.rbtn_red.AutoSize = true;
             this.rbtn_red.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtn_red.Location = new System.Drawing.Point(67, 53);
+            this.rbtn_red.Location = new System.Drawing.Point(12, 53);
             this.rbtn_red.Name = "rbtn_red";
             this.rbtn_red.Size = new System.Drawing.Size(61, 24);
             this.rbtn_red.TabIndex = 1;
@@ -61,7 +61,7 @@
             // 
             this.rbtn_yellow.AutoSize = true;
             this.rbtn_yellow.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtn_yellow.Location = new System.Drawing.Point(67, 83);
+            this.rbtn_yellow.Location = new System.Drawing.Point(12, 83);
             this.rbtn_yellow.Name = "rbtn_yellow";
             this.rbtn_yellow.Size = new System.Drawing.Size(96, 24);
             this.rbtn_yellow.TabIndex = 2;
@@ -75,7 +75,7 @@
             // 
             this.rbtn_blue.AutoSize = true;
             this.rbtn_blue.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtn_blue.Location = new System.Drawing.Point(67, 113);
+            this.rbtn_blue.Location = new System.Drawing.Point(12, 113);
             this.rbtn_blue.Name = "rbtn_blue";
             this.rbtn_blue.Size = new System.Drawing.Size(69, 24);
             this.rbtn_blue.TabIndex = 3;

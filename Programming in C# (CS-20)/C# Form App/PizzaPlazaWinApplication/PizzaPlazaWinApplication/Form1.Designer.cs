@@ -198,7 +198,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(363, 129);
+            this.label5.Location = new System.Drawing.Point(376, 129);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 18);
             this.label5.TabIndex = 15;
@@ -209,7 +209,7 @@
             // 
             this.lbl_p3.AutoSize = true;
             this.lbl_p3.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_p3.Location = new System.Drawing.Point(363, 228);
+            this.lbl_p3.Location = new System.Drawing.Point(376, 228);
             this.lbl_p3.Name = "lbl_p3";
             this.lbl_p3.Size = new System.Drawing.Size(0, 18);
             this.lbl_p3.TabIndex = 16;
@@ -219,7 +219,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(609, 129);
+            this.label7.Location = new System.Drawing.Point(622, 129);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(138, 18);
             this.label7.TabIndex = 17;
@@ -230,7 +230,7 @@
             // 
             this.lbl_p4.AutoSize = true;
             this.lbl_p4.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_p4.Location = new System.Drawing.Point(363, 259);
+            this.lbl_p4.Location = new System.Drawing.Point(376, 259);
             this.lbl_p4.Name = "lbl_p4";
             this.lbl_p4.Size = new System.Drawing.Size(0, 18);
             this.lbl_p4.TabIndex = 18;
@@ -240,7 +240,7 @@
             // 
             this.lbl_p2.AutoSize = true;
             this.lbl_p2.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_p2.Location = new System.Drawing.Point(363, 197);
+            this.lbl_p2.Location = new System.Drawing.Point(376, 197);
             this.lbl_p2.Name = "lbl_p2";
             this.lbl_p2.Size = new System.Drawing.Size(0, 18);
             this.lbl_p2.TabIndex = 19;
@@ -250,7 +250,7 @@
             // 
             this.lbl_p1.AutoSize = true;
             this.lbl_p1.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_p1.Location = new System.Drawing.Point(363, 166);
+            this.lbl_p1.Location = new System.Drawing.Point(376, 166);
             this.lbl_p1.Name = "lbl_p1";
             this.lbl_p1.Size = new System.Drawing.Size(0, 18);
             this.lbl_p1.TabIndex = 20;
@@ -343,6 +343,7 @@
             this.button1.TabIndex = 28;
             this.button1.Text = "Calculate Order";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // chk_small
             // 

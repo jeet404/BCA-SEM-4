@@ -18,9 +18,7 @@ namespace PizzaPlazaWinApplication
         int small = 50;
         int mid = 150;
         int large = 300;
-        int itm1, itm2, itm3, itm4;
-        int qty1, qty2, qty3, qty4;
-
+        int itm1 = 0, itm2 = 0, itm3 = 0, itm4 = 4;
         private void item_2_CheckedChanged(object sender, EventArgs e)
         {
             if (item_2.Checked)
@@ -88,6 +86,10 @@ namespace PizzaPlazaWinApplication
             qty_3.Enabled = false;
             qty_4.Enabled = false;
             chk_parcel.Enabled = false;
+            lbl_p1.Text = "0";
+            lbl_p2.Text = "0";
+            lbl_p3.Text = "0";
+            lbl_p4.Text = "0";
         }
 
         private void chk_large_CheckedChanged(object sender, EventArgs e)
@@ -125,6 +127,28 @@ namespace PizzaPlazaWinApplication
                 item_4.Enabled = false;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            itm1 = Int32.Parse(lbl_p1.Text);
+            itm2 = Int32.Parse(lbl_p2.Text);
+            itm3 = Int32.Parse(lbl_p3.Text);
+            itm4 = Int32.Parse(lbl_p4.Text);
+            total = itm1 + itm2 + itm3 + itm4;
+            if (chk_parcel.Checked)
+            {
+                lbl_parcel.Text = parcel.ToString();
+                lbl_itemtotal.Text = (total + parcel).ToString();
+            }
+            else
+            {
+                lbl_itemtotal.Text = total.ToString();
+                parcel = 0;
+                lbl_parcel.Text = "0";
+            }
+            lbl_total.Text = (total + parcel).ToString();
+        }
+
         private void chk_small_CheckedChanged(object sender, EventArgs e)
         {
             if (chk_small.Checked)
@@ -145,137 +169,68 @@ namespace PizzaPlazaWinApplication
 
         private void qty_1_ValueChanged(object sender, EventArgs e)
         {
-            if (chk_parcel.Checked)
+            if (chk_small.Checked)
             {
-                if (chk_small.Checked)
-                {
-                    lbl_p1.Text = (qty_1.Value * small + parcel).ToString();
-                }
-                else if (chk_mid.Checked)
-                {
-                    lbl_p1.Text = (qty_1.Value * mid + parcel).ToString();
-                }
-                else if (chk_large.Checked)
-                {
-                    lbl_p1.Text = (qty_1.Value * large + parcel).ToString();
-                }
+                lbl_p1.Text = (qty_1.Value * small).ToString();
             }
-            else
+            else if (chk_mid.Checked)
             {
-                if (chk_small.Checked)
-                {
-                    lbl_p1.Text = (qty_1.Value * small).ToString();
-                }
-                else if (chk_mid.Checked)
-                {
-                    lbl_p1.Text = (qty_1.Value * mid).ToString();
-                }
-                else if (chk_large.Checked)
-                {
-                    lbl_p1.Text = (qty_1.Value * large).ToString();
-                }
+                lbl_p1.Text = (qty_1.Value * mid).ToString();
+            }
+            else if (chk_large.Checked)
+            {
+                lbl_p1.Text = (qty_1.Value * large).ToString();
             }
         }
 
         private void qty_2_ValueChanged(object sender, EventArgs e)
         {
-            if (chk_parcel.Checked)
+            if (chk_small.Checked)
             {
-                if (chk_small.Checked)
-                {
-                    lbl_p2.Text = (qty_2.Value * small + parcel).ToString();
-                }
-                else if (chk_mid.Checked)
-                {
-                    lbl_p2.Text = (qty_2.Value * mid + parcel).ToString();
-                }
-                else if (chk_large.Checked)
-                {
-                    lbl_p2.Text = (qty_2.Value * large + parcel).ToString();
-                }
+                lbl_p2.Text = (qty_2.Value * small).ToString();
             }
-            else
+            else if (chk_mid.Checked)
             {
-                if (chk_small.Checked)
-                {
-                    lbl_p2.Text = (qty_2.Value * small).ToString();
-                }
-                else if (chk_mid.Checked)
-                {
-                    lbl_p2.Text = (qty_2.Value * mid).ToString();
-                }
-                else if (chk_large.Checked)
-                {
-                    lbl_p2.Text = (qty_2.Value * large).ToString();
-                }
+                lbl_p2.Text = (qty_2.Value * mid).ToString();
             }
+            else if (chk_large.Checked)
+            {
+                lbl_p2.Text = (qty_2.Value * large).ToString();
+            }
+
         }
 
         private void qty_3_ValueChanged(object sender, EventArgs e)
         {
-            if (chk_parcel.Checked)
+            if (chk_small.Checked)
             {
-                if (chk_small.Checked)
-                {
-                    lbl_p3.Text = (qty_3.Value * small + parcel).ToString();
-                }
-                else if (chk_mid.Checked)
-                {
-                    lbl_p3.Text = (qty_3.Value * mid + parcel).ToString();
-                }
-                else if (chk_large.Checked)
-                {
-                    lbl_p3.Text = (qty_3.Value * large + parcel).ToString();
-                }
+                lbl_p3.Text = (qty_3.Value * small).ToString();
             }
-            else
+            else if (chk_mid.Checked)
             {
-                if (chk_small.Checked)
-                {
-                    lbl_p1.Text = (qty_3.Value * small).ToString();
-                }
-                else if (chk_mid.Checked)
-                {
-                    lbl_p1.Text = (qty_3.Value * mid).ToString();
-                }
-                else if (chk_large.Checked)
-                {
-                    lbl_p1.Text = (qty_3.Value * large).ToString();
-                }
+                lbl_p3.Text = (qty_3.Value * mid).ToString();
             }
+            else if (chk_large.Checked)
+            {
+                lbl_p3.Text = (qty_3.Value * large).ToString();
+            }
+
         }
         private void qty_4_ValueChanged(object sender, EventArgs e)
         {
-            if (chk_parcel.Checked)
+            if (chk_small.Checked)
             {
-                if (chk_small.Checked)
-                {
-                    lbl_p4.Text = (qty_4.Value * small + parcel).ToString();
-                }
-                else if (chk_mid.Checked)
-                {
-                    lbl_p4.Text = (qty_4.Value * mid + parcel).ToString();
-                }
-                else if (chk_large.Checked)
-                {
-                    lbl_p4.Text = (qty_4.Value * large + parcel).ToString();
-                }
+                lbl_p4.Text = (qty_4.Value * small).ToString();
             }
-            else
+            else if (chk_mid.Checked)
             {
-                if (chk_small.Checked)
-                {
-                    lbl_p4.Text = (qty_4.Value * small).ToString();
-                }
-                else if (chk_mid.Checked)
-                {
-                    lbl_p4.Text = (qty_4.Value * mid).ToString();
-                }
-                else if (chk_large.Checked)
-                {
-                    lbl_p4.Text = (qty_4.Value * large).ToString();
-                }
+                lbl_p4.Text = (qty_4.Value * mid).ToString();
             }
+            else if (chk_large.Checked)
+            {
+                lbl_p4.Text = (qty_4.Value * large).ToString();
+            }
+
         }
 
         public Form1()

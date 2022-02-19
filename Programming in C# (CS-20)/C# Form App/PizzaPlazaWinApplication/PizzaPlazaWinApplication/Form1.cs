@@ -138,7 +138,7 @@ namespace PizzaPlazaWinApplication
             if (chk_parcel.Checked)
             {
                 lbl_parcel.Text = parcel.ToString();
-                lbl_itemtotal.Text = (total + parcel).ToString();
+                lbl_itemtotal.Text = total.ToString();
             }
             else
             {

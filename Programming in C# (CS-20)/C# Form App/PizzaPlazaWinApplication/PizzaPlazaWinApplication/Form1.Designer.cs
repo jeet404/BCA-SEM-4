@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.chk_small = new System.Windows.Forms.CheckBox();
@@ -177,9 +178,11 @@
             this.item_1.Text = "Seven Cheeze";
             this.item_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.item_1.UseVisualStyleBackColor = true;
+            this.item_1.CheckedChanged += new System.EventHandler(this.item_1_CheckedChanged);
             // 
             // qty_1
             // 
+            this.qty_1.Enabled = false;
             this.qty_1.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.qty_1.Location = new System.Drawing.Point(179, 162);
             this.qty_1.Name = "qty_1";
@@ -188,6 +191,7 @@
             // 
             // qty_2
             // 
+            this.qty_2.Enabled = false;
             this.qty_2.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.qty_2.Location = new System.Drawing.Point(179, 193);
             this.qty_2.Name = "qty_2";
@@ -196,6 +200,7 @@
             // 
             // qty_3
             // 
+            this.qty_3.Enabled = false;
             this.qty_3.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.qty_3.Location = new System.Drawing.Point(179, 224);
             this.qty_3.Name = "qty_3";
@@ -204,6 +209,7 @@
             // 
             // qty_4
             // 
+            this.qty_4.Enabled = false;
             this.qty_4.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.qty_4.Location = new System.Drawing.Point(179, 255);
             this.qty_4.Name = "qty_4";
@@ -375,7 +381,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.IndianRed;
+            this.BackColor = System.Drawing.Color.MediumAquamarine;
             this.ClientSize = new System.Drawing.Size(800, 381);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label12);
@@ -407,6 +413,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.qty_1)).EndInit();

@@ -1,0 +1,11 @@
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\PizzaPlazaWinApplication\PizzaPlazaWinApplication\bin\Debug\PizzaPlazaWinApplication.exe.config
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\PizzaPlazaWinApplication\PizzaPlazaWinApplication\bin\Debug\PizzaPlazaWinApplication.exe
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\PizzaPlazaWinApplication\PizzaPlazaWinApplication\bin\Debug\PizzaPlazaWinApplication.pdb
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\PizzaPlazaWinApplication\PizzaPlazaWinApplication\obj\Debug\PizzaPlazaWinApplication.csproj.AssemblyReference.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\PizzaPlazaWinApplication\PizzaPlazaWinApplication\obj\Debug\PizzaPlazaWinApplication.csproj.SuggestedBindingRedirects.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\PizzaPlazaWinApplication\PizzaPlazaWinApplication\obj\Debug\PizzaPlazaWinApplication.Form1.resources
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\PizzaPlazaWinApplication\PizzaPlazaWinApplication\obj\Debug\PizzaPlazaWinApplication.Properties.Resources.resources
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\PizzaPlazaWinApplication\PizzaPlazaWinApplication\obj\Debug\PizzaPlazaWinApplication.csproj.GenerateResource.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\PizzaPlazaWinApplication\PizzaPlazaWinApplication\obj\Debug\PizzaPlazaWinApplication.csproj.CoreCompileInputs.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\PizzaPlazaWinApplication\PizzaPlazaWinApplication\obj\Debug\PizzaPlazaWinApplication.exe
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\PizzaPlazaWinApplication\PizzaPlazaWinApplication\obj\Debug\PizzaPlazaWinApplication.pdb

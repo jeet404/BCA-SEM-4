@@ -111,11 +111,11 @@
             // 
             this.checkBox4.AutoSize = true;
             this.checkBox4.Font = new System.Drawing.Font("Lucida Sans Typewriter", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(511, 132);
+            this.checkBox4.Location = new System.Drawing.Point(591, 129);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(108, 21);
+            this.checkBox4.Size = new System.Drawing.Size(117, 21);
             this.checkBox4.TabIndex = 6;
-            this.checkBox4.Text = "checkBox4";
+            this.checkBox4.Text = "Hot & Spicy";
             this.checkBox4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
@@ -123,11 +123,11 @@
             // 
             this.checkBox5.AutoSize = true;
             this.checkBox5.Font = new System.Drawing.Font("Lucida Sans Typewriter", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.Location = new System.Drawing.Point(384, 132);
+            this.checkBox5.Location = new System.Drawing.Point(418, 129);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(108, 21);
+            this.checkBox5.Size = new System.Drawing.Size(162, 21);
             this.checkBox5.TabIndex = 7;
-            this.checkBox5.Text = "checkBox5";
+            this.checkBox5.Text = "Tandoori Paneer";
             this.checkBox5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox5.UseVisualStyleBackColor = true;
             // 
@@ -135,11 +135,11 @@
             // 
             this.checkBox6.AutoSize = true;
             this.checkBox6.Font = new System.Drawing.Font("Lucida Sans Typewriter", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.Location = new System.Drawing.Point(264, 132);
+            this.checkBox6.Location = new System.Drawing.Point(293, 129);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(108, 21);
             this.checkBox6.TabIndex = 8;
-            this.checkBox6.Text = "checkBox6";
+            this.checkBox6.Text = "Margarita";
             this.checkBox6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox6.UseVisualStyleBackColor = true;
             // 
@@ -147,11 +147,11 @@
             // 
             this.checkBox7.AutoSize = true;
             this.checkBox7.Font = new System.Drawing.Font("Lucida Sans Typewriter", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox7.Location = new System.Drawing.Point(144, 132);
+            this.checkBox7.Location = new System.Drawing.Point(146, 129);
             this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(108, 21);
+            this.checkBox7.Size = new System.Drawing.Size(135, 21);
             this.checkBox7.TabIndex = 9;
-            this.checkBox7.Text = "checkBox7";
+            this.checkBox7.Text = "Seven Cheeze";
             this.checkBox7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox7.UseVisualStyleBackColor = true;
             // 

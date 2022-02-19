@@ -101,11 +101,12 @@
             this.item_4.Font = new System.Drawing.Font("Lucida Sans Typewriter", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.item_4.Location = new System.Drawing.Point(12, 256);
             this.item_4.Name = "item_4";
-            this.item_4.Size = new System.Drawing.Size(117, 21);
+            this.item_4.Size = new System.Drawing.Size(108, 21);
             this.item_4.TabIndex = 6;
-            this.item_4.Text = "Hot & Spicy";
+            this.item_4.Text = "Hot-Spicy";
             this.item_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.item_4.UseVisualStyleBackColor = true;
+            this.item_4.CheckedChanged += new System.EventHandler(this.item_4_CheckedChanged);
             // 
             // item_3
             // 
@@ -118,6 +119,7 @@
             this.item_3.Text = "Tandoori Paneer";
             this.item_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.item_3.UseVisualStyleBackColor = true;
+            this.item_3.CheckedChanged += new System.EventHandler(this.item_3_CheckedChanged);
             // 
             // item_2
             // 
@@ -130,6 +132,7 @@
             this.item_2.Text = "Margarita";
             this.item_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.item_2.UseVisualStyleBackColor = true;
+            this.item_2.CheckedChanged += new System.EventHandler(this.item_2_CheckedChanged);
             // 
             // item_1
             // 
@@ -142,6 +145,7 @@
             this.item_1.Text = "Seven Cheeze";
             this.item_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.item_1.UseVisualStyleBackColor = true;
+            this.item_1.CheckedChanged += new System.EventHandler(this.item_1_CheckedChanged);
             // 
             // qty_1
             // 
@@ -150,6 +154,7 @@
             this.qty_1.Name = "qty_1";
             this.qty_1.Size = new System.Drawing.Size(120, 25);
             this.qty_1.TabIndex = 10;
+            this.qty_1.ValueChanged += new System.EventHandler(this.qty_1_ValueChanged);
             // 
             // qty_2
             // 
@@ -158,6 +163,7 @@
             this.qty_2.Name = "qty_2";
             this.qty_2.Size = new System.Drawing.Size(120, 25);
             this.qty_2.TabIndex = 11;
+            this.qty_2.ValueChanged += new System.EventHandler(this.qty_2_ValueChanged);
             // 
             // qty_3
             // 
@@ -166,6 +172,7 @@
             this.qty_3.Name = "qty_3";
             this.qty_3.Size = new System.Drawing.Size(120, 25);
             this.qty_3.TabIndex = 12;
+            this.qty_3.ValueChanged += new System.EventHandler(this.qty_3_ValueChanged);
             // 
             // qty_4
             // 
@@ -174,6 +181,7 @@
             this.qty_4.Name = "qty_4";
             this.qty_4.Size = new System.Drawing.Size(120, 25);
             this.qty_4.TabIndex = 13;
+            this.qty_4.ValueChanged += new System.EventHandler(this.qty_4_ValueChanged);
             // 
             // label4
             // 

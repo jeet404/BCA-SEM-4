@@ -31,9 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.chk_small = new System.Windows.Forms.CheckBox();
-            this.chk_mid = new System.Windows.Forms.CheckBox();
-            this.chk_large = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.item_4 = new System.Windows.Forms.CheckBox();
             this.item_3 = new System.Windows.Forms.CheckBox();
@@ -50,7 +47,7 @@
             this.lbl_p4 = new System.Windows.Forms.Label();
             this.lbl_p2 = new System.Windows.Forms.Label();
             this.lbl_p1 = new System.Windows.Forms.Label();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.chk_parcel = new System.Windows.Forms.CheckBox();
             this.lbl_itemtotal = new System.Windows.Forms.Label();
             this.lbl_parcel = new System.Windows.Forms.Label();
             this.lbl_total = new System.Windows.Forms.Label();
@@ -58,6 +55,9 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.chk_small = new System.Windows.Forms.CheckBox();
+            this.chk_mid = new System.Windows.Forms.CheckBox();
+            this.chk_large = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.qty_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qty_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qty_3)).BeginInit();
@@ -83,42 +83,6 @@
             this.label2.Size = new System.Drawing.Size(123, 18);
             this.label2.TabIndex = 1;
             this.label2.Text = "Choose Size : ";
-            // 
-            // chk_small
-            // 
-            this.chk_small.AutoSize = true;
-            this.chk_small.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chk_small.Location = new System.Drawing.Point(146, 89);
-            this.chk_small.Name = "chk_small";
-            this.chk_small.Size = new System.Drawing.Size(77, 22);
-            this.chk_small.TabIndex = 2;
-            this.chk_small.Text = "Small";
-            this.chk_small.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.chk_small.UseVisualStyleBackColor = true;
-            // 
-            // chk_mid
-            // 
-            this.chk_mid.AutoSize = true;
-            this.chk_mid.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chk_mid.Location = new System.Drawing.Point(264, 89);
-            this.chk_mid.Name = "chk_mid";
-            this.chk_mid.Size = new System.Drawing.Size(87, 22);
-            this.chk_mid.TabIndex = 3;
-            this.chk_mid.Text = "Medium";
-            this.chk_mid.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.chk_mid.UseVisualStyleBackColor = true;
-            // 
-            // chk_large
-            // 
-            this.chk_large.AutoSize = true;
-            this.chk_large.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chk_large.Location = new System.Drawing.Point(387, 89);
-            this.chk_large.Name = "chk_large";
-            this.chk_large.Size = new System.Drawing.Size(77, 22);
-            this.chk_large.TabIndex = 4;
-            this.chk_large.Text = "Large";
-            this.chk_large.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.chk_large.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -178,11 +142,9 @@
             this.item_1.Text = "Seven Cheeze";
             this.item_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.item_1.UseVisualStyleBackColor = true;
-            this.item_1.CheckedChanged += new System.EventHandler(this.item_1_CheckedChanged);
             // 
             // qty_1
             // 
-            this.qty_1.Enabled = false;
             this.qty_1.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.qty_1.Location = new System.Drawing.Point(179, 162);
             this.qty_1.Name = "qty_1";
@@ -191,7 +153,6 @@
             // 
             // qty_2
             // 
-            this.qty_2.Enabled = false;
             this.qty_2.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.qty_2.Location = new System.Drawing.Point(179, 193);
             this.qty_2.Name = "qty_2";
@@ -200,7 +161,6 @@
             // 
             // qty_3
             // 
-            this.qty_3.Enabled = false;
             this.qty_3.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.qty_3.Location = new System.Drawing.Point(179, 224);
             this.qty_3.Name = "qty_3";
@@ -209,7 +169,6 @@
             // 
             // qty_4
             // 
-            this.qty_4.Enabled = false;
             this.qty_4.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.qty_4.Location = new System.Drawing.Point(179, 255);
             this.qty_4.Name = "qty_4";
@@ -289,23 +248,23 @@
             this.lbl_p1.TabIndex = 20;
             this.lbl_p1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // checkBox8
+            // chk_parcel
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox8.Location = new System.Drawing.Point(15, 329);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(137, 22);
-            this.checkBox8.TabIndex = 21;
-            this.checkBox8.Text = "With Parcel";
-            this.checkBox8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.chk_parcel.AutoSize = true;
+            this.chk_parcel.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chk_parcel.Location = new System.Drawing.Point(15, 329);
+            this.chk_parcel.Name = "chk_parcel";
+            this.chk_parcel.Size = new System.Drawing.Size(137, 22);
+            this.chk_parcel.TabIndex = 21;
+            this.chk_parcel.Text = "With Parcel";
+            this.chk_parcel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.chk_parcel.UseVisualStyleBackColor = true;
             // 
             // lbl_itemtotal
             // 
             this.lbl_itemtotal.AutoSize = true;
             this.lbl_itemtotal.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_itemtotal.Location = new System.Drawing.Point(655, 163);
+            this.lbl_itemtotal.Location = new System.Drawing.Point(675, 163);
             this.lbl_itemtotal.Name = "lbl_itemtotal";
             this.lbl_itemtotal.Size = new System.Drawing.Size(18, 18);
             this.lbl_itemtotal.TabIndex = 22;
@@ -316,7 +275,7 @@
             // 
             this.lbl_parcel.AutoSize = true;
             this.lbl_parcel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_parcel.Location = new System.Drawing.Point(655, 194);
+            this.lbl_parcel.Location = new System.Drawing.Point(675, 194);
             this.lbl_parcel.Name = "lbl_parcel";
             this.lbl_parcel.Size = new System.Drawing.Size(18, 18);
             this.lbl_parcel.TabIndex = 23;
@@ -327,7 +286,7 @@
             // 
             this.lbl_total.AutoSize = true;
             this.lbl_total.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_total.Location = new System.Drawing.Point(655, 238);
+            this.lbl_total.Location = new System.Drawing.Point(675, 235);
             this.lbl_total.Name = "lbl_total";
             this.lbl_total.Size = new System.Drawing.Size(18, 18);
             this.lbl_total.TabIndex = 24;
@@ -338,18 +297,18 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(546, 238);
+            this.label10.Location = new System.Drawing.Point(714, 235);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(70, 18);
+            this.label10.Size = new System.Drawing.Size(59, 18);
             this.label10.TabIndex = 25;
-            this.label10.Text = "Total = ";
+            this.label10.Text = "- Total";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(600, 214);
+            this.label11.Location = new System.Drawing.Point(620, 214);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(160, 18);
             this.label11.TabIndex = 26;
@@ -360,7 +319,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(694, 196);
+            this.label12.Location = new System.Drawing.Point(714, 196);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(66, 18);
             this.label12.TabIndex = 27;
@@ -377,6 +336,45 @@
             this.button1.Text = "Calculate Order";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // chk_small
+            // 
+            this.chk_small.AutoSize = true;
+            this.chk_small.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chk_small.Location = new System.Drawing.Point(146, 89);
+            this.chk_small.Name = "chk_small";
+            this.chk_small.Size = new System.Drawing.Size(77, 22);
+            this.chk_small.TabIndex = 2;
+            this.chk_small.Text = "Small";
+            this.chk_small.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.chk_small.UseVisualStyleBackColor = true;
+            this.chk_small.CheckedChanged += new System.EventHandler(this.chk_small_CheckedChanged);
+            // 
+            // chk_mid
+            // 
+            this.chk_mid.AutoSize = true;
+            this.chk_mid.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chk_mid.Location = new System.Drawing.Point(264, 89);
+            this.chk_mid.Name = "chk_mid";
+            this.chk_mid.Size = new System.Drawing.Size(87, 22);
+            this.chk_mid.TabIndex = 3;
+            this.chk_mid.Text = "Medium";
+            this.chk_mid.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.chk_mid.UseVisualStyleBackColor = true;
+            this.chk_mid.CheckedChanged += new System.EventHandler(this.chk_mid_CheckedChanged);
+            // 
+            // chk_large
+            // 
+            this.chk_large.AutoSize = true;
+            this.chk_large.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chk_large.Location = new System.Drawing.Point(387, 89);
+            this.chk_large.Name = "chk_large";
+            this.chk_large.Size = new System.Drawing.Size(77, 22);
+            this.chk_large.TabIndex = 4;
+            this.chk_large.Text = "Large";
+            this.chk_large.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.chk_large.UseVisualStyleBackColor = true;
+            this.chk_large.CheckedChanged += new System.EventHandler(this.chk_large_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -390,7 +388,7 @@
             this.Controls.Add(this.lbl_total);
             this.Controls.Add(this.lbl_parcel);
             this.Controls.Add(this.lbl_itemtotal);
-            this.Controls.Add(this.checkBox8);
+            this.Controls.Add(this.chk_parcel);
             this.Controls.Add(this.lbl_p1);
             this.Controls.Add(this.lbl_p2);
             this.Controls.Add(this.lbl_p4);
@@ -416,6 +414,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Shown += new System.EventHandler(this.Form1_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.qty_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qty_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qty_3)).EndInit();
@@ -429,9 +428,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.CheckBox chk_small;
-        private System.Windows.Forms.CheckBox chk_mid;
-        private System.Windows.Forms.CheckBox chk_large;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckBox item_4;
         private System.Windows.Forms.CheckBox item_3;
@@ -448,7 +444,7 @@
         private System.Windows.Forms.Label lbl_p4;
         private System.Windows.Forms.Label lbl_p2;
         private System.Windows.Forms.Label lbl_p1;
-        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.CheckBox chk_parcel;
         private System.Windows.Forms.Label lbl_itemtotal;
         private System.Windows.Forms.Label lbl_parcel;
         private System.Windows.Forms.Label lbl_total;
@@ -456,6 +452,9 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckBox chk_small;
+        private System.Windows.Forms.CheckBox chk_mid;
+        private System.Windows.Forms.CheckBox chk_large;
     }
 }
 

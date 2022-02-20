@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddRemoveItemComboBoxWinApp", "AddRemoveItemComboBoxWinApp\AddRemoveItemComboBoxWinApp.csproj", "{2337AF62-249E-4563-A242-CD6ADBF8F0C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2337AF62-249E-4563-A242-CD6ADBF8F0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2337AF62-249E-4563-A242-CD6ADBF8F0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2337AF62-249E-4563-A242-CD6ADBF8F0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2337AF62-249E-4563-A242-CD6ADBF8F0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31468843-36E6-4C5B-AEE0-61D2D1E7ED2A}
+	EndGlobalSection
+EndGlobal

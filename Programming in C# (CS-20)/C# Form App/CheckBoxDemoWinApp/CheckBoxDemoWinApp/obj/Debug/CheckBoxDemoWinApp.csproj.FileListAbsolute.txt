@@ -1,0 +1,11 @@
+C:\Users\Jeet404\source\repos\CheckBoxDemoWinApp\CheckBoxDemoWinApp\bin\Debug\CheckBoxDemoWinApp.exe.config
+C:\Users\Jeet404\source\repos\CheckBoxDemoWinApp\CheckBoxDemoWinApp\bin\Debug\CheckBoxDemoWinApp.exe
+C:\Users\Jeet404\source\repos\CheckBoxDemoWinApp\CheckBoxDemoWinApp\bin\Debug\CheckBoxDemoWinApp.pdb
+C:\Users\Jeet404\source\repos\CheckBoxDemoWinApp\CheckBoxDemoWinApp\obj\Debug\CheckBoxDemoWinApp.csproj.AssemblyReference.cache
+C:\Users\Jeet404\source\repos\CheckBoxDemoWinApp\CheckBoxDemoWinApp\obj\Debug\CheckBoxDemoWinApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jeet404\source\repos\CheckBoxDemoWinApp\CheckBoxDemoWinApp\obj\Debug\CheckBoxDemoWinApp.Form1.resources
+C:\Users\Jeet404\source\repos\CheckBoxDemoWinApp\CheckBoxDemoWinApp\obj\Debug\CheckBoxDemoWinApp.Properties.Resources.resources
+C:\Users\Jeet404\source\repos\CheckBoxDemoWinApp\CheckBoxDemoWinApp\obj\Debug\CheckBoxDemoWinApp.csproj.GenerateResource.cache
+C:\Users\Jeet404\source\repos\CheckBoxDemoWinApp\CheckBoxDemoWinApp\obj\Debug\CheckBoxDemoWinApp.csproj.CoreCompileInputs.cache
+C:\Users\Jeet404\source\repos\CheckBoxDemoWinApp\CheckBoxDemoWinApp\obj\Debug\CheckBoxDemoWinApp.exe
+C:\Users\Jeet404\source\repos\CheckBoxDemoWinApp\CheckBoxDemoWinApp\obj\Debug\CheckBoxDemoWinApp.pdb

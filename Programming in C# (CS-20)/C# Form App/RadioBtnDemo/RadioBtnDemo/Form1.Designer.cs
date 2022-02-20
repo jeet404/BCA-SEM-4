@@ -32,7 +32,6 @@
             this.rbtn_red = new System.Windows.Forms.RadioButton();
             this.rbtn_yellow = new System.Windows.Forms.RadioButton();
             this.rbtn_blue = new System.Windows.Forms.RadioButton();
-            this.btn_get = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_selected
@@ -86,22 +85,11 @@
             this.rbtn_blue.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.rbtn_blue.UseVisualStyleBackColor = true;
             // 
-            // btn_get
-            // 
-            this.btn_get.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_get.Location = new System.Drawing.Point(100, 191);
-            this.btn_get.Name = "btn_get";
-            this.btn_get.Size = new System.Drawing.Size(96, 34);
-            this.btn_get.TabIndex = 4;
-            this.btn_get.Text = "GET";
-            this.btn_get.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(276, 277);
-            this.Controls.Add(this.btn_get);
             this.Controls.Add(this.rbtn_blue);
             this.Controls.Add(this.rbtn_yellow);
             this.Controls.Add(this.rbtn_red);
@@ -119,7 +107,6 @@
         private System.Windows.Forms.RadioButton rbtn_red;
         private System.Windows.Forms.RadioButton rbtn_yellow;
         private System.Windows.Forms.RadioButton rbtn_blue;
-        private System.Windows.Forms.Button btn_get;
     }
 }
 

@@ -200,6 +200,18 @@ namespace PizzaPlazaWinApplication
 
         }
 
+        private void chk_parcel_CheckedChanged(object sender, EventArgs e)
+        {
+            if(!chk_parcel.Checked)
+            {
+                lbl_parcel.Text = "0";
+            }
+            else
+            {
+                lbl_parcel.Text = parcel.ToString();
+            }
+        }
+
         private void qty_3_ValueChanged(object sender, EventArgs e)
         {
             if (chk_small.Checked)

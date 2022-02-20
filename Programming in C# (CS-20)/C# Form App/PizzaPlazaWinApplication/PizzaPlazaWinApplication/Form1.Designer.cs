@@ -267,12 +267,13 @@
             this.chk_parcel.Text = "With Parcel";
             this.chk_parcel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chk_parcel.UseVisualStyleBackColor = true;
+            this.chk_parcel.CheckedChanged += new System.EventHandler(this.chk_parcel_CheckedChanged);
             // 
             // lbl_itemtotal
             // 
             this.lbl_itemtotal.AutoSize = true;
             this.lbl_itemtotal.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_itemtotal.Location = new System.Drawing.Point(675, 163);
+            this.lbl_itemtotal.Location = new System.Drawing.Point(665, 163);
             this.lbl_itemtotal.Name = "lbl_itemtotal";
             this.lbl_itemtotal.Size = new System.Drawing.Size(18, 18);
             this.lbl_itemtotal.TabIndex = 22;
@@ -283,7 +284,7 @@
             // 
             this.lbl_parcel.AutoSize = true;
             this.lbl_parcel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_parcel.Location = new System.Drawing.Point(675, 194);
+            this.lbl_parcel.Location = new System.Drawing.Point(665, 193);
             this.lbl_parcel.Name = "lbl_parcel";
             this.lbl_parcel.Size = new System.Drawing.Size(18, 18);
             this.lbl_parcel.TabIndex = 23;
@@ -294,7 +295,7 @@
             // 
             this.lbl_total.AutoSize = true;
             this.lbl_total.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_total.Location = new System.Drawing.Point(675, 235);
+            this.lbl_total.Location = new System.Drawing.Point(665, 235);
             this.lbl_total.Name = "lbl_total";
             this.lbl_total.Size = new System.Drawing.Size(18, 18);
             this.lbl_total.TabIndex = 24;

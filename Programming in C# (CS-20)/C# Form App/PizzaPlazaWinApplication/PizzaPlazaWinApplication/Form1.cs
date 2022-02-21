@@ -18,7 +18,7 @@ namespace PizzaPlazaWinApplication
         int small = 50;
         int mid = 150;
         int large = 300;
-        int itm1 = 0, itm2 = 0, itm3 = 0, itm4 = 4;
+        int itm1 = 0, itm2 = 0, itm3 = 0, itm4 = 0;
         private void item_2_CheckedChanged(object sender, EventArgs e)
         {
             if (item_2.Checked)

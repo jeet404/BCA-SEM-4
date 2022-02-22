@@ -15,9 +15,9 @@ namespace PizzaPlazaWinApplication
 
         int total = 0;
         int parcel = 40;
-        int small = 50;
-        int mid = 150;
-        int large = 300;
+        int small = 0;
+        int mid = 0;
+        int large = 0;
         int itm1 = 0, itm2 = 0, itm3 = 0, itm4 = 0;
         private void item_2_CheckedChanged(object sender, EventArgs e)
         {
@@ -171,14 +171,17 @@ namespace PizzaPlazaWinApplication
         {
             if (chk_small.Checked)
             {
+                small = 59;
                 lbl_p1.Text = (qty_1.Value * small).ToString();
             }
             else if (chk_mid.Checked)
             {
+                mid = 132;
                 lbl_p1.Text = (qty_1.Value * mid).ToString();
             }
             else if (chk_large.Checked)
             {
+                large = 289;
                 lbl_p1.Text = (qty_1.Value * large).ToString();
             }
         }
@@ -187,14 +190,17 @@ namespace PizzaPlazaWinApplication
         {
             if (chk_small.Checked)
             {
+                small = 72;
                 lbl_p2.Text = (qty_2.Value * small).ToString();
             }
             else if (chk_mid.Checked)
             {
+                mid = 145;
                 lbl_p2.Text = (qty_2.Value * mid).ToString();
             }
             else if (chk_large.Checked)
             {
+                large = 299;
                 lbl_p2.Text = (qty_2.Value * large).ToString();
             }
 
@@ -202,7 +208,7 @@ namespace PizzaPlazaWinApplication
 
         private void chk_parcel_CheckedChanged(object sender, EventArgs e)
         {
-            if(!chk_parcel.Checked)
+            if (!chk_parcel.Checked)
             {
                 lbl_parcel.Text = "0";
             }
@@ -216,14 +222,17 @@ namespace PizzaPlazaWinApplication
         {
             if (chk_small.Checked)
             {
+                small = 89;
                 lbl_p3.Text = (qty_3.Value * small).ToString();
             }
             else if (chk_mid.Checked)
             {
+                mid = 169;
                 lbl_p3.Text = (qty_3.Value * mid).ToString();
             }
             else if (chk_large.Checked)
             {
+                large = 339;
                 lbl_p3.Text = (qty_3.Value * large).ToString();
             }
 
@@ -232,14 +241,17 @@ namespace PizzaPlazaWinApplication
         {
             if (chk_small.Checked)
             {
+                small = 110;
                 lbl_p4.Text = (qty_4.Value * small).ToString();
             }
             else if (chk_mid.Checked)
             {
+                mid = 189;
                 lbl_p4.Text = (qty_4.Value * mid).ToString();
             }
             else if (chk_large.Checked)
             {
+                large = 379;
                 lbl_p4.Text = (qty_4.Value * large).ToString();
             }
 

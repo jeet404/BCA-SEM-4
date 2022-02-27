@@ -34,11 +34,11 @@ namespace GroupboxDemoWinApp
                 }
                 else if(rdo_st.Checked)
                 {
-                    line = "U are "+gender[0]+" Your category is "+cat[3];
+                    line = "U are "+gender[0]+" Your category is "+cat[2];
                 }
                 else if(rdo_sc.Checked)
                 {
-                    line = "U are "+gender[0]+" Your category is "+cat[4];
+                    line = "U are "+gender[0]+" Your category is "+cat[3];
                 }
             }
             else if(rdo_Female.Checked)
@@ -53,14 +53,14 @@ namespace GroupboxDemoWinApp
                 }
                 else if (rdo_st.Checked)
                 {
-                    line = "U are "+gender[1]+" Your category is "+cat[3];
+                    line = "U are "+gender[1]+" Your category is "+cat[2];
                 }
                 else if (rdo_sc.Checked)
                 {
-                    line = "U are "+gender[1]+" Your category is "+cat[4];
+                    line = "U are "+gender[1]+" Your category is "+cat[3];
                 }
-                lbl_data.Text = line;
             }
+            lbl_data.Text = line;
         }
     }
 }

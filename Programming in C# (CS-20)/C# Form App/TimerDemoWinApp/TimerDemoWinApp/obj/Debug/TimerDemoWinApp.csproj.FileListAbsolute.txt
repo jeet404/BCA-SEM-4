@@ -1,0 +1,11 @@
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerDemoWinApp\TimerDemoWinApp\bin\Debug\TimerDemoWinApp.exe.config
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerDemoWinApp\TimerDemoWinApp\bin\Debug\TimerDemoWinApp.exe
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerDemoWinApp\TimerDemoWinApp\bin\Debug\TimerDemoWinApp.pdb
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerDemoWinApp\TimerDemoWinApp\obj\Debug\TimerDemoWinApp.csproj.AssemblyReference.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerDemoWinApp\TimerDemoWinApp\obj\Debug\TimerDemoWinApp.csproj.SuggestedBindingRedirects.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerDemoWinApp\TimerDemoWinApp\obj\Debug\TimerDemoWinApp.Form1.resources
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerDemoWinApp\TimerDemoWinApp\obj\Debug\TimerDemoWinApp.Properties.Resources.resources
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerDemoWinApp\TimerDemoWinApp\obj\Debug\TimerDemoWinApp.csproj.GenerateResource.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerDemoWinApp\TimerDemoWinApp\obj\Debug\TimerDemoWinApp.csproj.CoreCompileInputs.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerDemoWinApp\TimerDemoWinApp\obj\Debug\TimerDemoWinApp.exe
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerDemoWinApp\TimerDemoWinApp\obj\Debug\TimerDemoWinApp.pdb

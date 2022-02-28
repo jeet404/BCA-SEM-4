@@ -20,7 +20,12 @@ namespace PanelDemoWinApp
         private void btn_add_Click(object sender, EventArgs e)
         {
             RadioButton rdo = new RadioButton();
+            rdo.Name = "radiobutton5";
+            rdo.Text = "radiobutton5";
+            rdo.Location = new Point(3, 93);
+            pnl_main.Controls.Add(rdo);
             pnl_main.AutoScroll = true;
-            pnl_main.Controls.Add(rdo);        }
+
+        }
     }
 }

@@ -1,0 +1,11 @@
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerWithFormWinApp\TimerWithFormWinApp\bin\Debug\TimerWithFormWinApp.exe.config
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerWithFormWinApp\TimerWithFormWinApp\bin\Debug\TimerWithFormWinApp.exe
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerWithFormWinApp\TimerWithFormWinApp\bin\Debug\TimerWithFormWinApp.pdb
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerWithFormWinApp\TimerWithFormWinApp\obj\Debug\TimerWithFormWinApp.csproj.AssemblyReference.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerWithFormWinApp\TimerWithFormWinApp\obj\Debug\TimerWithFormWinApp.csproj.SuggestedBindingRedirects.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerWithFormWinApp\TimerWithFormWinApp\obj\Debug\TimerWithFormWinApp.Form1.resources
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerWithFormWinApp\TimerWithFormWinApp\obj\Debug\TimerWithFormWinApp.Properties.Resources.resources
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerWithFormWinApp\TimerWithFormWinApp\obj\Debug\TimerWithFormWinApp.csproj.GenerateResource.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerWithFormWinApp\TimerWithFormWinApp\obj\Debug\TimerWithFormWinApp.csproj.CoreCompileInputs.cache
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerWithFormWinApp\TimerWithFormWinApp\obj\Debug\TimerWithFormWinApp.exe
+C:\WorkSpace\BCA SEM-4\Main\Programming in C# (CS-20)\C# Form App\TimerWithFormWinApp\TimerWithFormWinApp\obj\Debug\TimerWithFormWinApp.pdb

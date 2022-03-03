@@ -38,7 +38,6 @@
             this.chk_8 = new System.Windows.Forms.CheckBox();
             this.chk_9 = new System.Windows.Forms.CheckBox();
             this.chk_10 = new System.Windows.Forms.CheckBox();
-            this.lbl_cnt = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // chk_1
@@ -161,21 +160,11 @@
             this.chk_10.UseVisualStyleBackColor = true;
             this.chk_10.CheckedChanged += new System.EventHandler(this.checkitem);
             // 
-            // lbl_cnt
-            // 
-            this.lbl_cnt.AutoSize = true;
-            this.lbl_cnt.Location = new System.Drawing.Point(258, 129);
-            this.lbl_cnt.Name = "lbl_cnt";
-            this.lbl_cnt.Size = new System.Drawing.Size(12, 13);
-            this.lbl_cnt.TabIndex = 10;
-            this.lbl_cnt.Text = "s";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(314, 151);
-            this.Controls.Add(this.lbl_cnt);
             this.Controls.Add(this.chk_10);
             this.Controls.Add(this.chk_9);
             this.Controls.Add(this.chk_8);
@@ -205,7 +194,6 @@
         private System.Windows.Forms.CheckBox chk_8;
         private System.Windows.Forms.CheckBox chk_9;
         private System.Windows.Forms.CheckBox chk_10;
-        private System.Windows.Forms.Label lbl_cnt;
     }
 }
 

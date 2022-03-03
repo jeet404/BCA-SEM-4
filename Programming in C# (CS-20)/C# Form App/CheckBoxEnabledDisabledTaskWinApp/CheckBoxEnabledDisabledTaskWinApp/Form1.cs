@@ -13,7 +13,6 @@ namespace CheckBoxEnabledDisabledTaskWinApp
     public partial class Form1 : Form
     {
         CheckBox[] itm = new CheckBox[10];
-        int temp = 0;
         public Form1()
         {
             InitializeComponent();
@@ -57,11 +56,6 @@ namespace CheckBoxEnabledDisabledTaskWinApp
                     cb.Enabled = true;
                 }
             }
-        }
-
-        private void chk_1_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

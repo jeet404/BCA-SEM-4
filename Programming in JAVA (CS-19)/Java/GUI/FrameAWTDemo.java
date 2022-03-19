@@ -3,7 +3,7 @@ import java.awt.*;
 public class FrameAWTDemo {
     FrameAWTDemo() {
         Frame f = new Frame();
-        Button b = new Button();
+        Button b = new Button("Click ME");
         b.setBounds(30, 50, 80, 30);
         f.add(b);
         f.setSize(300, 300);

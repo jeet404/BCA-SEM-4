@@ -23,6 +23,6 @@ class arrLstDemo
         {
             Console.WriteLine("|" + item + "|"); 
         }
-        Console.WriteLine(" _ D is Available : ", a.Contains("D"));
+        Console.WriteLine(" _ D is Available : {0} ", a.Contains("D"));
     }
 }

@@ -42,6 +42,6 @@ class shape
         Console.WriteLine("Info for T2");
         t2.showStyle();
         t2.show_dim();
-        Console.WriteLine("Area is : " + t1.Area());
+        Console.WriteLine("Area is : " + t2.Area());
     }
 }

@@ -2,7 +2,7 @@ using System;
 
 class overDemo
 {
-    public void ovrblock()
+    public void ovrBlock()
     {
         Console.WriteLine("No Parameter!!!");
     }
@@ -27,7 +27,8 @@ class main
     public static void Main()
     {
         overDemo obj = new overDemo();
-        int resI, resD;
+        int resI;
+        double resD;
         obj.ovrBlock();
         Console.WriteLine();
         obj.ovrBlock(5);
